@@ -13,7 +13,6 @@ pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
 import numpy as np
 from ollama import embeddings
 
-
 class Kb:
     def __init__(self, filepath):
         # 读取文件内容
