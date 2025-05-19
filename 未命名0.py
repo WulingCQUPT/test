@@ -7,6 +7,8 @@ Created on Wed May 14 14:59:20 2025
 import numpy as np
 import requests
 
+
+
 textquestion = "请使用中文回答，历年欧冠冠军是谁？"
  
 data = {
