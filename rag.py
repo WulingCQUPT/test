@@ -24,6 +24,7 @@ class Rag:
         # print(context)
         # prompt = self.prompt_template % (context, message)
         prompt = '请基于以下内容回答问题：\n' + context
-        response = chat(self.model, [Message(role='system', content=prompt), Message(role='user', content=message)])
+        response = chat(self.model, [Message(role='system', content=prompt),\
+                                     Message(role='user', content=message)])
         return response['message']
 

@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed May 14 16:28:55 2025
-
-conda env list
-activate trial-environment
-conda list
-pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
-
 @author: ling
 """
 
